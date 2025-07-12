@@ -1,0 +1,43 @@
+﻿@model IEnumerable<EstudiantesViewModel>
+
+@{
+    ViewBag.Title = "Lista de Estudiantes";
+}
+
+<h2>Estudiantes Registrados</h2>
+
+<a class="btn btn-primary mb-4" asp-action="registrar">Registrar estudiante</a>
+
+@if (Model.Any())
+{
+    <table class="table table-striped" border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Matrícula</th>
+                <th>Correo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var est in Model)
+            {
+                <tr>
+                    <td>@est.NombreCompleto</td>
+                    <td>@est.Matricula</td>
+                    <td>@est.CorreoInstitucional</td>
+                    <td>
+                        @Html.ActionLink("Editar", "Editar", new { matricula = est.Matricula }) |
+                        @Html.ActionLink("Eliminar", "Eliminar", new { matricula = est.Matricula })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <p>No hay estudiantes registrados</p>
+}
+

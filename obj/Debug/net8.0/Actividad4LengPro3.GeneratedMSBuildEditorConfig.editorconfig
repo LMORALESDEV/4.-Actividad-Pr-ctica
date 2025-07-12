@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Actividad4LengPro3
+build_property.RootNamespace = Actividad4LengPro3
+build_property.ProjectDir = C:\Users\Dell UltraBook\Documents\GitHub\4.-Actividad-Pr-ctica\Actividad3LengPro3\Actividad3LengPro3\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Dell UltraBook\Documents\GitHub\4.-Actividad-Pr-ctica\Actividad3LengPro3\Actividad3LengPro3
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Calificaciones/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uZXNcQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Calificaciones/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uZXNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Calificaciones/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaWZpY2FjaW9uZXNcTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Estudiantes/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Estudiantes/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Estudiantes/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcUmVnaXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Materias/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYXNcQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Materias/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYXNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Materias/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYXNcTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell UltraBook/Documents/GitHub/4.-Actividad-Pr-ctica/Actividad3LengPro3/Actividad3LengPro3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lsvdr4gw4m

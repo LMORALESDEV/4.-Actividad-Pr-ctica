@@ -1,0 +1,103 @@
+﻿@model EstudiantesViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Registar Usuarios";
+}
+
+<h2>Registrar Usuarios</h2>
+
+<form asp-action="Registrar" method="post">
+    <div>
+        <label asp-for="NombreCompleto"></label>
+        <input asp-for="NombreCompleto" class="form-control"/>
+        <span asp-validation-for="NombreCompleto" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Matricula"></label>
+        <input asp-for="Matricula" class="form-control" />
+        <span asp-validation-for="Matricula" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Carrera"></label>
+        <select asp-for="Carrera" asp-items="Model.Carreras" class="form-select"></select>
+        <span asp-validation-for="Carrera" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="CorreoInstitucional"></label>
+        <input asp-for="CorreoInstitucional" class="form-control" />
+        <span asp-validation-for="CorreoInstitucional" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Telefono"></label>
+        <input asp-for="Telefono" class="form-control" />
+        <span asp-validation-for="Telefono" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="FechaNacimiento"></label>
+        <input asp-for="FechaNacimiento" class="form-control" />
+        <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+    </div>
+
+
+   
+    <div>
+        <label asp-for="Genero"></label>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" asp-for="Genero" value="Masculino" id="generomasculino">
+            <label class="form-check-label" for="generomasculino">
+                Masculino
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" asp-for="Genero" value="Femenino" id="generofemenino">
+            <label class="form-check-label" for="generofemenino">
+                Femenino
+            </label>
+        </div>
+        <span asp-validation-for="Genero" class="text-danger"></span>
+     
+    </div> 
+   
+
+    <div>
+        <label asp-for="Turno"></label>
+        <select asp-for="Turno" asp-items="Model.Turnos" class="form-select"></select>
+        <span asp-validation-for="Turno" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="TipoIngreso"></label>
+        <select asp-for="TipoIngreso" asp-items="Model.TiposIngresos" class="form-select"></select>
+        <span asp-validation-for="TipoIngreso" class="text-danger"></span>
+    </div>
+
+    <div class="form-check mt-3">
+        <input asp-for="EstaBecado" class="form-check-input" />
+        <label asp-for="EstaBecado"></label>
+        <span asp-validation-for="EstaBecado" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="PorcentajeBeca"></label>
+        <input asp-for="PorcentajeBeca" class="form-control" />
+        <span asp-validation-for="PorcentajeBeca" class="text-danger"></span>
+    </div>
+
+    <div>
+        <input asp-for="TerminosYCondiciones" class="form-check-input" />
+        <label asp-for="TerminosYCondiciones"></label>
+        <br />
+        <span asp-validation-for="TerminosYCondiciones" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-success" type="submit">Registrar</button>
+    <a class="btn btn-secondary" asp-action="lista">Cancelar</a>
+
+</form>

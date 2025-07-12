@@ -1,0 +1,41 @@
+﻿@model CalificacionViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Editar Calificación";
+}
+
+<h2>Editar Calificación</h2>
+
+<form asp-action="Editar" method="post">
+    <div>
+        <label asp-for="MatriculaEstudiante"></label>
+        <input readonly asp-for="MatriculaEstudiante" class="form-control" />
+        <span asp-validation-for="MatriculaEstudiante" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="CodigoMateria"></label>
+        <input readonly asp-for="CodigoMateria" class="form-control" />
+        <span asp-validation-for="CodigoMateria" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Periodo"></label>
+        <input readonly asp-for="Periodo" class="form-control" />
+        <span asp-validation-for="Periodo" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Nota"></label>
+        <input asp-for="Nota" class="form-control" />
+        <span asp-validation-for="Nota" class="text-danger"></span>
+    </div>
+
+    <div class="mt-2">
+        <button class="btn btn-success" type="submit">Editar</button>
+        <a class="btn btn-secondary" asp-action="lista">Cancelar</a>
+    </div>
+
+</form>

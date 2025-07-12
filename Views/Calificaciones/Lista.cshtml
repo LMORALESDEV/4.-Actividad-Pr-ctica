@@ -1,0 +1,46 @@
+﻿@model IEnumerable<CalificacionViewModel>
+
+@{
+    ViewBag.Title = "Lista de Calificaciones";
+}
+
+<h2>Calificaciones</h2>
+
+<a class="btn btn-primary mb-4" asp-action="crear">Registrar calificación</a>
+
+@if (Model.Any())
+{
+    <table class="table table-striped" border="1">
+        <thead>
+            <tr>
+                <th>Periodo</th>
+                <th>Matricula</th>
+                <th>Materia</th>
+                <th>Nota</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Periodo</td>
+                    <td>@item.MatriculaEstudiante</td>
+                    <td>@item.CodigoMateria</td>
+                    <td>@item.Nota</td>
+                    <td>
+                        @Html.ActionLink("Editar", "Editar", new { codigoMateria = item.CodigoMateria, matriculaEstudiante = item.MatriculaEstudiante, periodo = item.Periodo }) |
+                        @Html.ActionLink("Eliminar", "Eliminar", new { codigoMateria = item.CodigoMateria, matriculaEstudiante = item.MatriculaEstudiante, periodo = item.Periodo })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <p>No hay calificaciones registradas</p>
+}
+
